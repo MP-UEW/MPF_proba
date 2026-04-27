@@ -91,14 +91,14 @@ void calfp(int frates[][3], int fac_rate)
 int main()
 {
     int frates[5][3] = { 
-        { 0, 5, 0 }, //zmieniłem tu wartości
-        { 0, 4, 0 },
-        { 0, 3, 0 },
-        { 0, 6, 0 },
+        { 0, 3, 0 }, //zmiana złożoności komponentu
+        { 0, 2, 0 },
+        { 0, 2, 0 },
+        { 0, 1, 0 },
         { 0, 4, 0 }
     };
 
-    int fac_rate = 3;
+    int fac_rate = 2;
 
     calfp(frates, fac_rate);
 
